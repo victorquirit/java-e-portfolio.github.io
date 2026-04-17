@@ -1,54 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Victor Quirit III | E-Portfolio</title>
-  <style>
-    body {
-      margin: 0;
-    font-family: Arial, sans-serif;
-    background-image: url("images/main-bg.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    }
+    <title>Victor Quirit III | Home</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-image: url("images/leaf-bg.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
 
-    .hero {
-      padding: 40px;
-      border-radius: 20px;
-      background: #8a9a5b;
-      backdrop-filter: blur(8px);
-      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
-      max-width: 700px;
-      width: 90%;
-    }
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+        }
 
-    h1 {
-      font-size: 3rem;
-      margin-bottom: 10px;
-      letter-spacing: 1px;
-    }
+        .navbar {
+            position: absolute;
+            top: 20px;
+            width: 100%;
+            text-align: center;
+        }
 
-    h2 {
-      font-size: 1.5rem;
-      font-weight: 400;
-      margin: 10px 0;
-    }
+        .navbar a {
+            text-decoration: none;
+            color: #2f3b1f;
+            margin: 0 20px;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 10px 15px;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.8);
+        }
 
-    p {
-      font-size: 1.2rem;
-      margin-top: 15px;
-      opacity: 0.95;
-    }
-  </style>
+        .navbar a:hover {
+            background: #8a9a5b;
+            color: white;
+        }
+
+        .hero {
+            padding: 40px;
+            border-radius: 20px;
+            background: #a3b18a;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+            width: 600px;
+        }
+
+        h1, h2, p {
+            margin: 10px;
+            color: #2f3b1f;
+        }
+    </style>
 </head>
 <body>
-  <div class="hero">
-    <h1>VICTOR QUIRIT III</h1>
-    <h2>COMP 009 - OBJECT ORIENTED PROGRAMMING</h2>
-    <p>BSIT 2-5</p>
-  </div>
+
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="midterm.html">Midterm / Final</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="hero">
+        <h1>VICTOR QUIRIT III</h1>
+        <h2>COMP 009 - OBJECT ORIENTED PROGRAMMING</h2>
+        <p>BSIT 2-5</p>
+    </div>
+
 </body>
 </html>
