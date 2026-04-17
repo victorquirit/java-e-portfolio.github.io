@@ -1,1 +1,3 @@
-# java-e-portfolio.github.io
+VICTOR QUIRIT III
+COMP 009 - OBJECT ORIENTED PROGRAMMING
+BSIT 2-5
