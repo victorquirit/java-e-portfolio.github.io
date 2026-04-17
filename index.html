@@ -2,10 +2,13 @@
 <html lang="en">
 <head>
     <title>Victor Quirit III | Home</title>
+
     <style>
         body {
             margin: 0;
             font-family: Arial, sans-serif;
+
+            /* PAGE BACKGROUND */
             background-image: url("images/main-bg.png");
             background-size: cover;
             background-position: center;
@@ -13,41 +16,36 @@
             background-attachment: fixed;
 
             display: flex;
-            justify-content: center;
+            flex-direction: column;
             align-items: center;
             min-height: 100vh;
             text-align: center;
         }
 
+        /* NAVBAR CONTAINER (RECTANGLE) */
         .navbar {
-            position: absolute;
-            top: 20px;
-            width: 100%;
-            text-align: center;
+             background-image: url("images/buttons-bg.png");
+             background-size: cover;
+             background-position: center;
         }
 
+        /* BUTTONS */
         .navbar a {
-            text-decoration: none;
-            color: #2f3b1f;
-            margin: 0 20px;
-            font-size: 18px;
-            font-weight: bold;
-            padding: 10px 15px;
-            border-radius: 10px;
-            background: rgba(255, 255, 255, 0.8);
+            background-image: url("images/buttons-bg.png");
+            background-size: cover;
+            background-position: center;
         }
 
         .navbar a:hover {
-            background: #8a9a5b;
+            background: #2f3b1f;
             color: white;
         }
 
+        /* HERO / TITLE BOX */
         .hero {
-            padding: 40px;
-            border-radius: 20px;
-            background: #a3b18a;
-            box-shadow: 0 8px 24px rgba(0,0,0,0.2);
-            width: 600px;
+            background-image: url("images/buttons-bg.png");
+            background-size: cover;
+            background-position: center;
         }
 
         h1, h2, p {
@@ -56,14 +54,17 @@
         }
     </style>
 </head>
+
 <body>
 
+    <!-- NAVBAR INSIDE RECTANGLE -->
     <nav class="navbar">
         <a href="index.html">Home</a>
         <a href="midterm.html">Midterm / Final</a>
         <a href="contact.html">Contact</a>
     </nav>
 
+    <!-- TITLE BOX -->
     <div class="hero">
         <h1>VICTOR QUIRIT III</h1>
         <h2>COMP 009 - OBJECT ORIENTED PROGRAMMING</h2>
